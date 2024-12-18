@@ -2,6 +2,17 @@
 
 This repository contains a Python implementation for organizing datasets, training a classification model using YOLOv11, and deploying it for real-world applications. The project is designed to handle custom datasets and provides a complete pipeline from dataset preparation to model saving.
 
+## Task Description
+
+The primary objective of this project is to classify car images based on their models and variants using a fine-tuned YOLOv11 classification model. The workflow includes:
+
+1. **Organizing raw car image datasets** into structured folders for training, validation, and testing.
+2. **Fine-tuning a pre-trained YOLOv11 model** on the prepared dataset to classify images into specific car models and variants.
+3. **Saving the trained model** for deployment and inference tasks.
+4. **Performing predictions** on new images to identify the car model and variant accurately.
+
+This task aims to create a robust and scalable classification system for car images, which can be used for various applications, including inventory management, automated inspections, and customer-facing platforms.
+
 ## Features
 
 - **Dataset Preparation**: Automatically organizes raw images into `train`, `val`, and `test` splits.
